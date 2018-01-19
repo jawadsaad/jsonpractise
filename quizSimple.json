@@ -6,26 +6,11 @@
      ],
      
      "choices": [
-         {
-             "choice1": 1,
-             "choice2": 4,
-             "choice3": 16,
-             "choice4": 8
-         },
+         [1, 4, 16, 8],
+          
+         [16, 64. 32, 4],
          
-         {
-             "choice1": 16,
-             "choice2": 64,
-             "choice3": 32,
-             "choice4": 4
-         },
-         
-         {
-             "choice1": 512,
-             "choice2": 128,
-             "choice3": 1024,
-             "choice4": 256
-         }
+         [512, 128, 1024, 256]
      ],
      
      "answer": [8, 16, 256],
