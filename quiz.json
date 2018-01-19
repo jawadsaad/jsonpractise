@@ -5,8 +5,9 @@
         "What is 4 + 4?",
         "What is 4 x 4?",
         "What is 4 ^ 4?"
-    ],
-    
+    ]
+     },
+     {
     "choices": [
         {
             "choice1": 1,
@@ -28,8 +29,9 @@
             "choice3": 1024,
             "choice4": 256
         }
-    ],
-    
+    ]
+    },
+     {
     "answer": [8, 16, 256],
     "score": 0
      }
