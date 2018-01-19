@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+	<!-- Objects and arrays quiz exercise - Your challenge is to create a small quiz using an array of objects in Javascript.  The quiz can be on any topic of your choice and no more than 5 questions. An additional challenge will be to track the users score.
+	You should use to build your solution: an object constructor to create quiz objects, Push objects into an array,, Use a For loop to rotate through the array and display the questions onto the DOM.
+	Extra features: users receive a response to their answers, storage of the correct answers, user feedback of their overall score in the quiz -->
+  <head>
+	<!-- <meta charset="UTF-8"> prevents display errors with special characters such as £ -->
+	<meta charset="UTF-8">
+<!--	<link rel="stylesheet" href="../style.css">-->
+
+  </head>
+
+  <body>
+		<div>
+			<h2>Quiz (Javascript objects exercise)</h2>
+			<p id = "q1"></p>
+			<ul id= "q1AnswerList"></ul>
+			<span>Please choose an answer:</span>
+			<input type = "number" id="q1Answer" min="1" max ="4"/>
+			<br/>
+			<p id = "q2"></p>
+			<ul id= "q2AnswerList"></ul>
+			<span>Please choose an answer:</span>
+			<input type = "number" id="q2Answer" min="1" max ="4"/>
+			<br/>
+			<p id = "q3"></p>
+			<ul id= "q3AnswerList"></ul>
+			<span>Please choose an answer:</span>
+			<input type = "number" id="q3Answer" min="1" max ="4"/>
+			<br/>
+			<br/>
+			<button type="button" id="finishQuiz" onclick="submitQuiz(q1Answer.value, q2Answer.value, q3Answer.value)">Submit Quiz</button>
+            <button type="button" id="startQuiz" onclick="startNewQuiz()">Start New Quiz</button>
+			<br/>
+			<br/>
+			<span id = "youranswers"></span>
+            <span id = "actualanswers"></span>
+            <span id = "result"></span>
+		</div>
+	<script src="script.js"></script>
+  </body>
+
+</html>
+
+
